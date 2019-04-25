@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="sobre_empresa">Sobre a empresa</string>
+    <string name="conteudo_sobre_empresa">A Atm consultoria é uma empresa de renome no mercado desde 1998. Nosso objetivo no mercado é proporcionar a todos os
+        nossos clientes uma experiência de qualidade e confiança.
+    </string>
+    <string name="nossos_clientes">Nossos Clientes</string>
+    <string name="cliente1">Empresa de desenvolvimento de sistemas</string>
+    <string name="cliente2">Empresa de auditoria</string>
+    <string name="nosso_contato">Nossos Contatos</string>
+    <string name="contato1">E-mail: consultoria@atm.com.br</string>
+    <string name="contato2">Telefone: (85) 9999 9999 </string>
+    <string name="contato3">Celular: (85) 9999 6666 </string>
+    <string name="servicos">Serviços</string>
+    <string name="servico1">- Consultoria  </string>
+    <string name="servico2">- Orçamentos </string>
+    <string name="servico3">- Acompanhamentos e projetos </string>
+
+
+</resources>
