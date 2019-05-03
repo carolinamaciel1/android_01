@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/idEmail"
+        style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="E-mail "
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/idSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/buttonAcessar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Acessar"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Lembre-se de mim" />
+
+    <TextView
+        android:id="@+id/idEsqueceuSenha"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-25dp"
+        android:text="Esqueceu sua senha?" />
+
+</LinearLayout>
