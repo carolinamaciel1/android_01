@@ -15,8 +15,8 @@
         android:layout_marginTop="90dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="50dp"
-        android:fontFamily="@font/architects_daughter"
-        android:text="Estude Todo Dia"
+        android:fontFamily="sans-serif"
+        android:text="ESTUDE TODO DIA"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:layout_marginTop="10dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorSecondaryDark"
         android:text="Acessar"
         tools:layout_editor_absoluteX="300dp"
         tools:layout_editor_absoluteY="337dp" />
